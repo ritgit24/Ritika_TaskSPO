@@ -4,15 +4,15 @@ I have attempted task 1 - SPO Student Page Clone + Insight Section Redesign.
 
 Explaining the UI structure : 
 I have redesigned the SPO For Student page in React JS while adding special filter feature to the Insights section and deployed my react Application on Vercel.
-Here is the link to my vercel : https://ritika-task-hjtk8e1yw-ritika-batras-projects.vercel.app/  
-My application contains a home page  (https://ritika-task-hjtk8e1yw-ritika-batras-projects.vercel.app/)  which has 3 buttons to it-Login,Signup, For Students. Focusing on the frontend part which was the requirement of task-1, The button - FOR STUDENTS leads to the next page (https://ritika-task-hjtk8e1yw-ritika-batras-projects.vercel.app/newpage)  which provides various tips to students who are yet to appear for placements. This page contains a NavBar at the top and various other components on the entire screen.
+Here is the link to my vercel : https://ritika-task-spo.vercel.app/  
+My application contains a home page  ( https://ritika-task-spo.vercel.app/ )  which has 3 buttons to it-Login,Signup, For Students. Focusing on the frontend part which was the requirement of task-1, The button - FOR STUDENTS leads to the next page (https://ritika-task-spo.vercel.app/newpage)  which provides various tips to students who are yet to appear for placements. This page contains a NavBar at the top and various other components on the entire screen.
 The NavBar also contains 5 buttons which again lead to different pages(Like About-IITK,For Companies,etc.).However I have not added any detail to these pages.
 Below the NavBar lie 5 buttons, namely- Insights, Resources, Roadmaps, Procedures, FAQs . 
 Each of the buttons lead to a new page with some sample data, which has been added as a template for the UI by me.
 For Resources, Roadmaps, Procedures and FAQs , I have kept the format simpler.
-The insights page contains the data of the previously placed students. However, I have added a special feature-FILTER FEATURE to the insights section which helps the upcoming students filter the placement data accordinng to their needs.
+The insights page ( https://ritika-task-spo.vercel.app/insightshehe ) contains the data of the previously placed students. However, I have added a special feature-FILTER FEATURE to the insights section which helps the upcoming students filter the placement data accordinng to their needs.
 The filter applies on 3 bases : DEPARTMENT, ROLE, COMPANY.  
-Clicking on a student's name leads to a new page containing the information of that particular student which displays - STUDENT NAME, DEPARTMENT, ROLE, COMPANY, PACKAGE, PROCESS, PREPARATION,ADVICE,TAGS.
+Clicking on a student's name leads to a new page [for example- https://ritika-task-spo.vercel.app/insights/1 ] containing the information of that particular student which displays - STUDENT NAME, DEPARTMENT, ROLE, COMPANY, PACKAGE, PROCESS, PREPARATION,ADVICE,TAGS.
 The page has detailed Student View: Shows comprehensive placement details for a single student and includes back button to return to the main insights list
 
 Explaining the code : 
