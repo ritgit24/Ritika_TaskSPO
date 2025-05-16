@@ -16,7 +16,7 @@ Clicking on a student's name leads to a new page [for example- https://ritika-ta
 The page has detailed Student View: Shows comprehensive placement details for a single student and includes back button to return to the main insights list
 
 Explaining the code : 
-My routing file is App.jsx . I have created various components for my page and stored them in "components" folder in src folder. I have imported these components to App.jsx using useNavigate hook. 
+My routing file is App.jsx . I have created various components for my page and stored them in "components" folder in src folder. I have imported these components to App.jsx and used useNavigate hook for navigation
 
 In my page For Students, I have used Material UI . The components of MUI used were :- AppBar, Toolbar, Typography, Button, IconButton, Drawer,List,  ListItem, ListItemText, Divider,  useMediaQuery, useTheme,  Container , MenuIcon.
 I used Appbar, Typography, IconButton, ListItem, Divider and ToolBar to make the NavBar.
